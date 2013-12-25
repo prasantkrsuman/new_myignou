@@ -1,0 +1,100 @@
+	body{
+			background:pink
+			
+		    }
+		table{
+			background:#90EE90;
+			Font-family:sans-serif;
+		    }
+		[type="Password"],[type="file"],textarea,select
+		{
+			background:none repeat scroll 0 0 #white;
+			height:35px;
+			width:300px;
+			border:1px solid#E70A31;
+			font-size:15px;
+			color:black;    
+		}
+		input[type="submit"]
+		{
+			background:#ADD8E6;
+		    font-size:30px;
+		    border:#000000;
+		    
+		}
+	#sidebar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0px ;
+	}
+	#sidebar a {
+		border-bottom: 1px solid #E5E5E5;
+		color: #0000FF;
+		display: block;
+		padding: 3px 3px 5px 30px;
+		background-color: #336666;
+		text-decoration: none;
+	}
+	#a:visited {
+		color: #FFFF00;
+	}
+	#sidebar a:hover {
+		background-color: #F8E184;
+		border-bottom: 3px solid #BF00FF;
+		border-right: 3px solid #00FF00;
+		color: #A020F0;
+		padding-bottom: 3px;
+	}
+		
+		
+	
+      #container 
+        {
+	   width:100%;
+        }
+     #sidebar 
+        {
+		 display:;
+	   }
+	 #mainContent
+	    {
+	 	 margin-left:0;
+	     }
+	 h1,h2,h3,h4,h5{
+		 text-shadow:#FFCD00  0 0 0;
+	      }
+	      
+		#navbar
+		{
+			float:center;
+			width:800px
+			font-weight:bold;
+		}
+		#navbar {
+    background-color: #FFFF00;
+    height: 1.8em;
+    overflow: hidden;
+    font-weight: bold;
+	}
+	#navbar a {
+		float: left;
+		white-space: nowrap;
+		border-right: 1px #EBEBEB solid;
+		padding: 3px 15px 4px 15px ;
+		color: #EBEBEB;
+	}
+	#maincontent {
+		background: red;
+    padding: 10px 10px 0 1em;
+	}
+			.error{
+			background: #ECEC7E;
+             max-width: 300;
+             font-weight: bold;
+	}  
+	.preload{
+		background-image: url('/images/progress.gif');
+		background-position: center; 
+		background-repeat:no-repeat;
+		
+	}  
